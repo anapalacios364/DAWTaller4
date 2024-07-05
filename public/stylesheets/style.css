@@ -1,0 +1,45 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(226, 202, 247);
+  
+}
+
+h1{
+  text-align: center; /* Centra el texto dentro del h1 */
+  width: 100%;
+  color: #982fe9;
+
+}
+
+.pagination{
+  align-content: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* O 'center' si prefieres que estén centrados verticalmente */
+  padding: 10px;
+}
+
+.nav h1 {
+  margin-bottom: 10px; /* Espacio entre el título y los enlaces */
+  color: #982fe9;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #982fe9; /* Color de los enlaces */
+  padding: 5px 0;
+  display: block;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #982fe9; /* Color del enlace activo */
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
